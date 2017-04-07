@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEEDF57D1E43F2500080F97A /* a4_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEEDF57C1E43F2500080F97A /* a4_1.cpp */; };
+		CEEDF57F1E43F2500080F97A /* CS2C_Week4_Homework4.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = CEEDF57E1E43F2500080F97A /* CS2C_Week4_Homework4.1 */; };
+		CEEDF59D1E43F2E30080F97A /* EBookEntry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEEDF5861E43F2E30080F97A /* EBookEntry.cpp */; };
+		CEEDF59E1E43F2E30080F97A /* iTunes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEEDF5941E43F2E30080F97A /* iTunes.cpp */; };
+		CEEDF59F1E43F2E30080F97A /* ListPractice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEEDF5961E43F2E30080F97A /* ListPractice.cpp */; };
+		CEEDF5A01E43F2E30080F97A /* Messing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEEDF5981E43F2E30080F97A /* Messing.cpp */; };
+		CEEDF5A11E43F2E30080F97A /* StarNearEarth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEEDF59B1E43F2E30080F97A /* StarNearEarth.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CEEDF5771E43F2500080F97A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				CEEDF57F1E43F2500080F97A /* CS2C_Week4_Homework4.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CEEDF5791E43F2500080F97A /* CS2C_Week4_Homework4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CS2C_Week4_Homework4; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEEDF57C1E43F2500080F97A /* a4_1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = a4_1.cpp; sourceTree = "<group>"; };
+		CEEDF57E1E43F2500080F97A /* CS2C_Week4_Homework4.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CS2C_Week4_Homework4.1; sourceTree = "<group>"; };
+		CEEDF5851E43F2E30080F97A /* FHlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHlist.h; sourceTree = "<group>"; };
+		CEEDF5861E43F2E30080F97A /* EBookEntry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EBookEntry.cpp; sourceTree = "<group>"; };
+		CEEDF5871E43F2E30080F97A /* EBookEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBookEntry.h; sourceTree = "<group>"; };
+		CEEDF5881E43F2E30080F97A /* FHavlTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHavlTree.h; sourceTree = "<group>"; };
+		CEEDF5891E43F2E30080F97A /* FHbinHeap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHbinHeap.h; sourceTree = "<group>"; };
+		CEEDF58A1E43F2E30080F97A /* FHgraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHgraph.h; sourceTree = "<group>"; };
+		CEEDF58B1E43F2E30080F97A /* FHhashQP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHhashQP.h; sourceTree = "<group>"; };
+		CEEDF58C1E43F2E30080F97A /* FHhashSC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHhashSC.h; sourceTree = "<group>"; };
+		CEEDF58D1E43F2E30080F97A /* FHkruskal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHkruskal.h; sourceTree = "<group>"; };
+		CEEDF58E1E43F2E30080F97A /* FHsearch_tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHsearch_tree.h; sourceTree = "<group>"; };
+		CEEDF58F1E43F2E30080F97A /* FHsort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHsort.h; sourceTree = "<group>"; };
+		CEEDF5901E43F2E30080F97A /* FHthreadedBST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHthreadedBST.h; sourceTree = "<group>"; };
+		CEEDF5911E43F2E30080F97A /* FHtree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHtree.h; sourceTree = "<group>"; };
+		CEEDF5921E43F2E30080F97A /* FHvector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHvector.h; sourceTree = "<group>"; };
+		CEEDF5931E43F2E30080F97A /* Foothill_Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Foothill_Sort.h; sourceTree = "<group>"; };
+		CEEDF5941E43F2E30080F97A /* iTunes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = iTunes.cpp; sourceTree = "<group>"; };
+		CEEDF5951E43F2E30080F97A /* iTunes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTunes.h; sourceTree = "<group>"; };
+		CEEDF5961E43F2E30080F97A /* ListPractice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ListPractice.cpp; sourceTree = "<group>"; };
+		CEEDF5971E43F2E30080F97A /* ListPractice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListPractice.h; sourceTree = "<group>"; };
+		CEEDF5981E43F2E30080F97A /* Messing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Messing.cpp; sourceTree = "<group>"; };
+		CEEDF5991E43F2E30080F97A /* Messing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Messing.h; sourceTree = "<group>"; };
+		CEEDF59A1E43F2E30080F97A /* READ_ME_FH_INCLUDES.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = READ_ME_FH_INCLUDES.txt; sourceTree = "<group>"; };
+		CEEDF59B1E43F2E30080F97A /* StarNearEarth.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StarNearEarth.cpp; sourceTree = "<group>"; };
+		CEEDF59C1E43F2E30080F97A /* StarNearEarth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarNearEarth.h; sourceTree = "<group>"; };
+		CEEDF5A31E46F18D0080F97A /* FHlazySearchTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHlazySearchTree.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEEDF5761E43F2500080F97A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEEDF5701E43F2500080F97A = {
+			isa = PBXGroup;
+			children = (
+				CEEDF57B1E43F2500080F97A /* CS2C_Week4_Homework4 */,
+				CEEDF57A1E43F2500080F97A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEEDF57A1E43F2500080F97A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEEDF5791E43F2500080F97A /* CS2C_Week4_Homework4 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEEDF57B1E43F2500080F97A /* CS2C_Week4_Homework4 */ = {
+			isa = PBXGroup;
+			children = (
+				CEEDF5851E43F2E30080F97A /* FHlist.h */,
+				CEEDF5861E43F2E30080F97A /* EBookEntry.cpp */,
+				CEEDF5871E43F2E30080F97A /* EBookEntry.h */,
+				CEEDF5881E43F2E30080F97A /* FHavlTree.h */,
+				CEEDF5891E43F2E30080F97A /* FHbinHeap.h */,
+				CEEDF58A1E43F2E30080F97A /* FHgraph.h */,
+				CEEDF58B1E43F2E30080F97A /* FHhashQP.h */,
+				CEEDF58C1E43F2E30080F97A /* FHhashSC.h */,
+				CEEDF58D1E43F2E30080F97A /* FHkruskal.h */,
+				CEEDF58E1E43F2E30080F97A /* FHsearch_tree.h */,
+				CEEDF58F1E43F2E30080F97A /* FHsort.h */,
+				CEEDF5901E43F2E30080F97A /* FHthreadedBST.h */,
+				CEEDF5911E43F2E30080F97A /* FHtree.h */,
+				CEEDF5A31E46F18D0080F97A /* FHlazySearchTree.h */,
+				CEEDF5921E43F2E30080F97A /* FHvector.h */,
+				CEEDF5931E43F2E30080F97A /* Foothill_Sort.h */,
+				CEEDF5941E43F2E30080F97A /* iTunes.cpp */,
+				CEEDF5951E43F2E30080F97A /* iTunes.h */,
+				CEEDF5961E43F2E30080F97A /* ListPractice.cpp */,
+				CEEDF5971E43F2E30080F97A /* ListPractice.h */,
+				CEEDF5981E43F2E30080F97A /* Messing.cpp */,
+				CEEDF5991E43F2E30080F97A /* Messing.h */,
+				CEEDF59A1E43F2E30080F97A /* READ_ME_FH_INCLUDES.txt */,
+				CEEDF59B1E43F2E30080F97A /* StarNearEarth.cpp */,
+				CEEDF59C1E43F2E30080F97A /* StarNearEarth.h */,
+				CEEDF57C1E43F2500080F97A /* a4_1.cpp */,
+				CEEDF57E1E43F2500080F97A /* CS2C_Week4_Homework4.1 */,
+			);
+			path = CS2C_Week4_Homework4;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEEDF5781E43F2500080F97A /* CS2C_Week4_Homework4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEEDF5821E43F2500080F97A /* Build configuration list for PBXNativeTarget "CS2C_Week4_Homework4" */;
+			buildPhases = (
+				CEEDF5751E43F2500080F97A /* Sources */,
+				CEEDF5761E43F2500080F97A /* Frameworks */,
+				CEEDF5771E43F2500080F97A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CS2C_Week4_Homework4;
+			productName = CS2C_Week4_Homework4;
+			productReference = CEEDF5791E43F2500080F97A /* CS2C_Week4_Homework4 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEEDF5711E43F2500080F97A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "connor lynch";
+			};
+			buildConfigurationList = CEEDF5741E43F2500080F97A /* Build configuration list for PBXProject "CS2C_Week4_Homework4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEEDF5701E43F2500080F97A;
+			productRefGroup = CEEDF57A1E43F2500080F97A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEEDF5781E43F2500080F97A /* CS2C_Week4_Homework4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEEDF5751E43F2500080F97A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEEDF5A01E43F2E30080F97A /* Messing.cpp in Sources */,
+				CEEDF59F1E43F2E30080F97A /* ListPractice.cpp in Sources */,
+				CEEDF59E1E43F2E30080F97A /* iTunes.cpp in Sources */,
+				CEEDF57D1E43F2500080F97A /* a4_1.cpp in Sources */,
+				CEEDF5A11E43F2E30080F97A /* StarNearEarth.cpp in Sources */,
+				CEEDF59D1E43F2E30080F97A /* EBookEntry.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CEEDF5801E43F2500080F97A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CEEDF5811E43F2500080F97A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CEEDF5831E43F2500080F97A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEEDF5841E43F2500080F97A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEEDF5741E43F2500080F97A /* Build configuration list for PBXProject "CS2C_Week4_Homework4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEEDF5801E43F2500080F97A /* Debug */,
+				CEEDF5811E43F2500080F97A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEEDF5821E43F2500080F97A /* Build configuration list for PBXNativeTarget "CS2C_Week4_Homework4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEEDF5831E43F2500080F97A /* Debug */,
+				CEEDF5841E43F2500080F97A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEEDF5711E43F2500080F97A /* Project object */;
+}

@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEFBAD401E2EF8E90060408B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEFBAD3F1E2EF8E90060408B /* main.cpp */; };
+		CEFBAD421E2EF8E90060408B /* CS2C_WeekTwo_Practice.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = CEFBAD411E2EF8E90060408B /* CS2C_WeekTwo_Practice.1 */; };
+		CEFBAD5C1E2EF9560060408B /* EBookEntry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEFBAD481E2EF9560060408B /* EBookEntry.cpp */; };
+		CEFBAD5D1E2EF9560060408B /* iTunes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEFBAD571E2EF9560060408B /* iTunes.cpp */; };
+		CEFBAD5E1E2EF9560060408B /* StarNearEarth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEFBAD5A1E2EF9560060408B /* StarNearEarth.cpp */; };
+		CEFBAD631E2F2E970060408B /* ListPractice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEFBAD611E2F2E970060408B /* ListPractice.cpp */; };
+		CEFBAD661E303E210060408B /* Messing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEFBAD641E303E210060408B /* Messing.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CEFBAD3A1E2EF8E90060408B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				CEFBAD421E2EF8E90060408B /* CS2C_WeekTwo_Practice.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CEFBAD3C1E2EF8E90060408B /* CS2C_WeekTwo_Practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CS2C_WeekTwo_Practice; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFBAD3F1E2EF8E90060408B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CEFBAD411E2EF8E90060408B /* CS2C_WeekTwo_Practice.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CS2C_WeekTwo_Practice.1; sourceTree = "<group>"; };
+		CEFBAD481E2EF9560060408B /* EBookEntry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EBookEntry.cpp; sourceTree = "<group>"; };
+		CEFBAD491E2EF9560060408B /* EBookEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBookEntry.h; sourceTree = "<group>"; };
+		CEFBAD4A1E2EF9560060408B /* FHavlTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHavlTree.h; sourceTree = "<group>"; };
+		CEFBAD4B1E2EF9560060408B /* FHbinHeap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHbinHeap.h; sourceTree = "<group>"; };
+		CEFBAD4C1E2EF9560060408B /* FHgraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHgraph.h; sourceTree = "<group>"; };
+		CEFBAD4D1E2EF9560060408B /* FHhashQP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHhashQP.h; sourceTree = "<group>"; };
+		CEFBAD4E1E2EF9560060408B /* FHhashSC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHhashSC.h; sourceTree = "<group>"; };
+		CEFBAD4F1E2EF9560060408B /* FHkruskal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHkruskal.h; sourceTree = "<group>"; };
+		CEFBAD501E2EF9560060408B /* FHlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHlist.h; sourceTree = "<group>"; };
+		CEFBAD511E2EF9560060408B /* FHsearch_tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHsearch_tree.h; sourceTree = "<group>"; };
+		CEFBAD521E2EF9560060408B /* FHsort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHsort.h; sourceTree = "<group>"; };
+		CEFBAD531E2EF9560060408B /* FHthreadedBST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHthreadedBST.h; sourceTree = "<group>"; };
+		CEFBAD541E2EF9560060408B /* FHtree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHtree.h; sourceTree = "<group>"; };
+		CEFBAD551E2EF9560060408B /* FHvector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHvector.h; sourceTree = "<group>"; };
+		CEFBAD561E2EF9560060408B /* Foothill_Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Foothill_Sort.h; sourceTree = "<group>"; };
+		CEFBAD571E2EF9560060408B /* iTunes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = iTunes.cpp; sourceTree = "<group>"; };
+		CEFBAD581E2EF9560060408B /* iTunes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTunes.h; sourceTree = "<group>"; };
+		CEFBAD591E2EF9560060408B /* READ_ME_FH_INCLUDES.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = READ_ME_FH_INCLUDES.txt; sourceTree = "<group>"; };
+		CEFBAD5A1E2EF9560060408B /* StarNearEarth.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StarNearEarth.cpp; sourceTree = "<group>"; };
+		CEFBAD5B1E2EF9560060408B /* StarNearEarth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarNearEarth.h; sourceTree = "<group>"; };
+		CEFBAD611E2F2E970060408B /* ListPractice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ListPractice.cpp; sourceTree = "<group>"; };
+		CEFBAD621E2F2E970060408B /* ListPractice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListPractice.h; sourceTree = "<group>"; };
+		CEFBAD641E303E210060408B /* Messing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Messing.cpp; sourceTree = "<group>"; };
+		CEFBAD651E303E210060408B /* Messing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Messing.h; sourceTree = "<group>"; };
+		CEFBAD671E319B920060408B /* FHsparseMat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FHsparseMat.cpp; sourceTree = "<group>"; };
+		CEFBAD681E319B920060408B /* FHsparseMat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHsparseMat.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEFBAD391E2EF8E90060408B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEFBAD331E2EF8E90060408B = {
+			isa = PBXGroup;
+			children = (
+				CEFBAD3E1E2EF8E90060408B /* CS2C_WeekTwo_Practice */,
+				CEFBAD3D1E2EF8E90060408B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEFBAD3D1E2EF8E90060408B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEFBAD3C1E2EF8E90060408B /* CS2C_WeekTwo_Practice */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEFBAD3E1E2EF8E90060408B /* CS2C_WeekTwo_Practice */ = {
+			isa = PBXGroup;
+			children = (
+				CEFBAD481E2EF9560060408B /* EBookEntry.cpp */,
+				CEFBAD491E2EF9560060408B /* EBookEntry.h */,
+				CEFBAD4A1E2EF9560060408B /* FHavlTree.h */,
+				CEFBAD4B1E2EF9560060408B /* FHbinHeap.h */,
+				CEFBAD4C1E2EF9560060408B /* FHgraph.h */,
+				CEFBAD4D1E2EF9560060408B /* FHhashQP.h */,
+				CEFBAD4E1E2EF9560060408B /* FHhashSC.h */,
+				CEFBAD4F1E2EF9560060408B /* FHkruskal.h */,
+				CEFBAD501E2EF9560060408B /* FHlist.h */,
+				CEFBAD681E319B920060408B /* FHsparseMat.h */,
+				CEFBAD671E319B920060408B /* FHsparseMat.cpp */,
+				CEFBAD3F1E2EF8E90060408B /* main.cpp */,
+				CEFBAD511E2EF9560060408B /* FHsearch_tree.h */,
+				CEFBAD521E2EF9560060408B /* FHsort.h */,
+				CEFBAD531E2EF9560060408B /* FHthreadedBST.h */,
+				CEFBAD541E2EF9560060408B /* FHtree.h */,
+				CEFBAD551E2EF9560060408B /* FHvector.h */,
+				CEFBAD561E2EF9560060408B /* Foothill_Sort.h */,
+				CEFBAD571E2EF9560060408B /* iTunes.cpp */,
+				CEFBAD581E2EF9560060408B /* iTunes.h */,
+				CEFBAD591E2EF9560060408B /* READ_ME_FH_INCLUDES.txt */,
+				CEFBAD5A1E2EF9560060408B /* StarNearEarth.cpp */,
+				CEFBAD5B1E2EF9560060408B /* StarNearEarth.h */,
+				CEFBAD641E303E210060408B /* Messing.cpp */,
+				CEFBAD651E303E210060408B /* Messing.h */,
+				CEFBAD611E2F2E970060408B /* ListPractice.cpp */,
+				CEFBAD621E2F2E970060408B /* ListPractice.h */,
+				CEFBAD411E2EF8E90060408B /* CS2C_WeekTwo_Practice.1 */,
+			);
+			path = CS2C_WeekTwo_Practice;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEFBAD3B1E2EF8E90060408B /* CS2C_WeekTwo_Practice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFBAD451E2EF8E90060408B /* Build configuration list for PBXNativeTarget "CS2C_WeekTwo_Practice" */;
+			buildPhases = (
+				CEFBAD381E2EF8E90060408B /* Sources */,
+				CEFBAD391E2EF8E90060408B /* Frameworks */,
+				CEFBAD3A1E2EF8E90060408B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CS2C_WeekTwo_Practice;
+			productName = CS2C_WeekTwo_Practice;
+			productReference = CEFBAD3C1E2EF8E90060408B /* CS2C_WeekTwo_Practice */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEFBAD341E2EF8E90060408B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "connor lynch";
+			};
+			buildConfigurationList = CEFBAD371E2EF8E90060408B /* Build configuration list for PBXProject "CS2C_WeekTwo_Practice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEFBAD331E2EF8E90060408B;
+			productRefGroup = CEFBAD3D1E2EF8E90060408B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEFBAD3B1E2EF8E90060408B /* CS2C_WeekTwo_Practice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEFBAD381E2EF8E90060408B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFBAD5D1E2EF9560060408B /* iTunes.cpp in Sources */,
+				CEFBAD401E2EF8E90060408B /* main.cpp in Sources */,
+				CEFBAD5E1E2EF9560060408B /* StarNearEarth.cpp in Sources */,
+				CEFBAD631E2F2E970060408B /* ListPractice.cpp in Sources */,
+				CEFBAD661E303E210060408B /* Messing.cpp in Sources */,
+				CEFBAD5C1E2EF9560060408B /* EBookEntry.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CEFBAD431E2EF8E90060408B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CEFBAD441E2EF8E90060408B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CEFBAD461E2EF8E90060408B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEFBAD471E2EF8E90060408B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEFBAD371E2EF8E90060408B /* Build configuration list for PBXProject "CS2C_WeekTwo_Practice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFBAD431E2EF8E90060408B /* Debug */,
+				CEFBAD441E2EF8E90060408B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFBAD451E2EF8E90060408B /* Build configuration list for PBXNativeTarget "CS2C_WeekTwo_Practice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFBAD461E2EF8E90060408B /* Debug */,
+				CEFBAD471E2EF8E90060408B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEFBAD341E2EF8E90060408B /* Project object */;
+}
